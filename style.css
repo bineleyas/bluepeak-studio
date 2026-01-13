@@ -161,6 +161,16 @@ ul li::before{
   padding:34px 0;
 }
 
+.cta .btn-primary{
+  background:#fff;
+  color:#0b39ff;
+}
+
+.cta .btn-primary:hover{
+  background:#e9edff;
+  transform:scale(1.05);
+}
+
 /* ========= CONTACT ========= */
 form input,
 form textarea{
@@ -184,20 +194,10 @@ footer{
   border-top:1px solid #e5e5e5;
 }
 
-/* ========= SCROLL FADE ANIMATION ========= */
-.reveal{
-  opacity:0;
-  transform:translateY(14px);
-  transition:all .45s ease;
-}
-
-.reveal.show{
-  opacity:1;
-  transform:translateY(0);
-}
-
 /* ========= SMOOTH SCROLL ========= */
-html{scroll-behavior:smooth;}
+html{
+  scroll-behavior:smooth;
+}
 
 /* ======== MEDIA QUERY ===========*/
 @media (max-width: 650px){

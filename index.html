@@ -24,7 +24,7 @@
             <p>
                 At Bluepeak Studio, We build fast, responsive, and visually clear websites that help your business attract customers and build trust online.
             </p>
-            <a href="#" class="btn-primary">Get a Free Quote</a>
+            <a href="#contact" class="btn-primary">Get a Free Quote</a>
         </div>
     </section>
     <section id="services" class="services">
@@ -110,10 +110,14 @@
     <section id="contact" class="contact">
         <div class="container">
             <h2>Contact Us</h2>
-            <form>
-                <input type="text" placeholder="Your Name">
-                <input type="email" placeholder="Email Address">
-                <textarea placeholder="Your Message"></textarea>
+            <form action="https://formsubmit.co/bineleyas@gmail.com" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Email Address" required>
+                <textarea name="message" placeholder=""></textarea>
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_template" value="table">
+                <input type="hidden" name="_subject" value="New Lead from BluePeak Studio">
+                <input type="hidden" name="_next" value="thanks.html">
                 <button type="submit" class="btn-primary">Submit</button>
             </form>
         </div>
