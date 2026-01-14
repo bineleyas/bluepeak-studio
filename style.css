@@ -42,6 +42,11 @@ h2{font-size:1.45rem;margin-bottom:6px;}
 h3{font-size:1.08rem;margin-bottom:4px;}
 p,li{margin-bottom:5px;}
 
+a{
+  color:inherit;
+  text-decoration:none;
+}
+
 /* ========= HEADER ========= */
 header{
   padding:10px 0;
@@ -185,6 +190,12 @@ form input:focus,
 form textarea:focus{
   outline:none;
   border-color:#0b39ff;
+}
+
+input[type="submit"]{
+  width:auto;
+  display:block;
+  margin:10px auto;
 }
 
 /* ========= FOOTER ========= */
