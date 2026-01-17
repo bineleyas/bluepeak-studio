@@ -23,16 +23,14 @@
         </section>
         <section class="contact">
             <div class="container">
-                <form action="https://formsubmit.co/dd2e44619cdae39118d0cab4dd964f9d" method="POST">
+                <form name="premium-order" method="POST" data-netlify="true" netlify-honeypot="_honey">
+                    <input type="hidden" name="form-name" value="premium-order">
                     <input type="hidden" name="plan" value="Premium Plan - $499">
                     <input type="text" name="name" placeholder="Your Name" required>
                     <input type="email" name="email" placeholder="Your Email" required>
                     <textarea name="details" placeholder="Tell us about your project" required></textarea>
-                    <input type="hidden" name="_captcha" value="false">
-                    <input type="hidden" name="_template" value="table">
-                    <input type="hidden" name="_subject" value="New Order - Basic Plan">
-                    <input type="hidden" name="_next" value="https://bineleyas.github.io/bluepeak-studio/thanks.html">
                     <input type="text" name="_honey" style="display:none">
+                    
                     <input type="submit" value="Place Order" class="btn-primary">
                 </form>
             </div>

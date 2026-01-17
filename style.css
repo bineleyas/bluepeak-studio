@@ -19,6 +19,10 @@ body{
   padding:0 14px;
 }
 
+header .container{
+  max-width:100%;
+}
+
 section{
   padding:22px 0; /* compact spacing */
 }
@@ -86,32 +90,32 @@ header{
 }
 
 /* ========= HERO ========= */
-.hero{
+.home .hero{
   position: relative;
-  min-height: 100vh;
+  min-height: 80vh;
   display: flex;
   align-items: center;
   background: url("hero-bg.jpg") center / cover no-repeat;
 }
 
-.hero::before{
+.home .hero::before{
   content:"";
   position: absolute;
   inset: 0;
   background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.45));
 }
 
-.hero .container{
+.home .hero .container{
   position: relative;
   z-index: 1;
 }
 
-.hero h1{
+.home .hero h1{
   color:#ffffff;
   text-shadow: 0 6px 18px rgba(0,0,0,0.6);
 }
 
-.hero p{
+.home  .hero p{
   max-width:620px;
   color: rgba(255, 255, 255, 0.85);
 }
