@@ -24,14 +24,14 @@
 <section class="contact">
   <div class="container">
     <h2>Place Your Order</h2>
-    <form name="standard-order" method="POST" data-netlify="true" netlify-honeypot="_honey">
+    <form name="standard-order" method="POST" action="/thanks.html" data-netlify="true" netlify-honeypot="_honey">
       <input type="hidden" name="form-name" value="standard-order">
       <input type="hidden" name="plan" value="Standard Plan - $299">
       <input type="text" name="name" placeholder="Your Name" required>
       <input type="email" name="email" placeholder="Email Address" required>
       <textarea name="message" placeholder="Tell us about your project" required></textarea>
       <input type="text" name="_honey" style="display:none">
-  <input type="hidden" name="redirect" value="/thanks.html">
+      <input type="hidden" name="redirect" value="/thanks.html">
       <input type="submit" value="Place Order" class="btn-primary">
     </form>
   </div>
